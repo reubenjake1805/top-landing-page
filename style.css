@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('fonts/MavenPro-Regular.ttf') format('truetype'),
+    url('fonts/MavenPro-Black.ttf') format('truetype'),
+    url('fonts/MavenPro-Bold.ttf') format('truetype'),
+    url('fonts/MavenPro-ExtraBold.ttf') format('truetype'),
+    url('fonts/MavenPro-Medium.ttf') format('truetype'),
+    url('fonts/MavenPro-SemiBold.ttf') format('truetype');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:  'Maven Pro', sans-serif;
+}
