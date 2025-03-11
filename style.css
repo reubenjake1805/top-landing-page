@@ -61,6 +61,7 @@ body {
 .header-links {
     color: #E5E7EB;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .header-right {
@@ -73,8 +74,81 @@ body {
 
 .hero {
     display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    width: 100%;
+    background-color: #1F2937;
+    padding-bottom: 24px;
+}
+
+.hero-left-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-left-sub {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     gap: 12px;
-    margin-left: 12px;
-    margin-right: 12px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family:  'Maven Pro', sans-serif;
+    border-radius: 6px;
+    padding: 6px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.hero-image {
+    width: 500px;
+    height: auto;
+    padding-right: 48px;
+}
+
+.cust-image {
+    width: 200px;
+    height: auto;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    gap: 120px;
+}
+
+.info-image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+    flex-wrap: wrap;
+    width: 200px;
 }
